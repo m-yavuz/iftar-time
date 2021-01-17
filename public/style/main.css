@@ -1,0 +1,43 @@
+    @font-face {
+        font-family: Tajawal;
+        src: url(Tajawal/Tajawal-Bold.ttf);
+    }
+    
+    .container-site {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .body {
+        font-family: Tajawal;
+        background-color: #ffffff;
+        background-image: url("bg.svg");
+        overflow: hidden;
+    }
+    
+    .header {
+        background-image: url("img/header-img.png");
+        background-position: right;
+        background-size: cover;
+        height: 15rem;
+    }
+    
+    .Time {
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+    
+    .CardInfo {
+        background-color: transparent;
+        width: 10rem;
+    }
+    
+    .moon {
+        background-color: #868686;
+        fill: url(#img1);
+    }
+    
+    .moonback {
+        fill: url(#img2);
+    }
